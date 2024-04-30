@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab3Class3Recipe"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@color/main_light_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="35dp"
+                app:srcCompat="@drawable/second_back_icon" />
+
+            <TextView
+                android:id="@+id/classname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="75dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/tab3_class3_name"
+                android:textColor="@color/main_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/tab3_class3_corner" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/border_radius">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/ingredients"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:text="1. Киви - 2 шт. \n
+Манго - 0,5 шт. \n
+Бананы - 0,5 штуки \n
+Малина - 3 ст. ложки \n
+Цедра лайма - 1 ч. ложка \n
+Сливки 35%-ные - 1 стакан \n
+Бисквит -100 г. \n
+Сахарная пудра - 1 ст. ложка \n
+Сок маракуйи - 60 мл. \n
+Голубика - 3 ст. ложки \n
+Сушеная малина - 2 ст. ложки \n
+Шоколад - по вкусу"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/recipe"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:text="1. Для фруктового салата порежьте один киви, манго и банан на кубики, смешайте с цедрой лайма и свежими ягодами малины. \n
+2. Для крема взбейте холодные сливки с сахарной пудрой до стойких форм пик. Переложите в кулинарный мешок. \n
+3. Для сборки десерта отсадите немного взбитых сливок на дно каждого из шести стаканов. Выложите немного салата, покройте его слоем взбитых сливок. Положите в стаканчики по кусочку бисквита, пропитайте его соком маракуйи. Сверху выложите еше немного салата, вновь покройте его слоем взбитых сливок. Накройте стаканчики пленкой и уберите в холодильник до подачи. \n
+4. Для топпинга разрежьте оставшийся киви пополам и с помощью нуазетки сделайте полусферы. Украсьте верх десерта получившимися полусферами, а также порошком малины, свежими ягодами голубики и шоколадом. \n"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

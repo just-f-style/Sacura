@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab4Class1Recipe"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@color/main_light_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="35dp"
+                app:srcCompat="@drawable/second_back_icon" />
+
+            <TextView
+                android:id="@+id/classname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="75dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/tab4_class1_name"
+                android:textColor="@color/main_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/tab4_class1_corner" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/border_radius">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/ingredients"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:text="1. Рисовая мука - 350 г. \n
+2. Вода - 200 мл. \n
+3. Сахар - 200 г. \n
+4. Уксус - 2 мл. \n
+5. Шоколад - 100 г. \n
+6. Фрукты - по вкусу"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/recipe"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:text="1. Возьмите миску среднюю по объему, высыпьте в нее муку, сахар и вылейте воду. Мешайте, пока не получится однородная масса. Теперь добавьте пару капель уксуса. Это делается для того, чтобы тесто было очень мягким, воздушным. (Если вы готовите угощение для ребенка, насыпьте немного пищевого красителя, тогда ваши шарики получатся разноцветные и веселые). \n
+2. Далее слепите из заготовленного теста шарики, разомните их в лепешки, в центр поместите начинку и вновь сделайте шарики. \n
+3. Заключительный этап. Поместите шарики в микроволновую печь, накройте пленкой и поставьте на четыре-пять минут. Затем дайте полностью остыть и только после этого подавайте к столу. \n"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

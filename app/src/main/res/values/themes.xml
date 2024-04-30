@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Sacura" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="android:statusBarColor">@color/main_color</item>
+    </style>
+
+    <style name="Theme.Sacura" parent="Base.Theme.Sacura" />
+
+    <style name="Theme.Sacura.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Sacura.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Sacura.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

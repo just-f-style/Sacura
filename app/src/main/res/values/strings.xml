@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sakura Book</string>
+    <string name="email_text">Email</string>
+    <string name="password_hidden_text">••••••••</string>
+    <string name="register_text">Зарегестрироваться</string>
+    <string name="name_text">Имя</string>
+    <string name="login_text">Войти</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Французские</string>
+    <string name="tab_text_2">Русские</string>
+    <string name="tab_text_3">Британские</string>
+    <string name="tab_text_4">Японские</string>
+    <string name="class_text">Рецептов</string>
+    <string name="class_name1">Макарун</string>
+    <string name="class_description">3 подхода по 12 повторений</string>
+    <string name="class_name2">Круассаны</string>
+    <string name="class_name3">Трюфели</string>
+    <string name="class_name4">Эклеры</string>
+    <string name="classname">ClassName</string>
+    <string name="tabname">TabName</string>
+    <string name="tab2_class1_name">Павлова</string>
+    <string name="tab2_class2_name">Пастила</string>
+    <string name="tab2_class3_name">Чак-чак</string>
+    <string name="tab2_class4_name">Птичье молоко</string>
+    <string name="tab3_class1_name">Маффины</string>
+    <string name="tab3_class2_name">Баноффи</string>
+    <string name="tab3_class3_name">Трайфл</string>
+    <string name="tab3_class4_name">Баттенберг</string>
+    <string name="tab4_class1_name">Моти</string>
+    <string name="tab4_class2_name">Сакурамоти</string>
+    <string name="tab4_class3_name">Данго</string>
+    <string name="tab4_class4_name">Дайфуку</string>
+    <string name="ingredients">Ингридиенты:</string>
+    <string name="recipe">Рецепт</string>
+    <string name="recipe_text">Открыть рецепт</string>
+</resources>

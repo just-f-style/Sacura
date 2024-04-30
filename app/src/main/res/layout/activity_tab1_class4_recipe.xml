@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab1Class4Recipe"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@color/main_light_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="35dp"
+                app:srcCompat="@drawable/second_back_icon" />
+
+            <TextView
+                android:id="@+id/classname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="75dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/class_name4"
+                android:textColor="@color/main_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/tab1_class4_corner" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/border_radius">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/ingredients"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:text="1. Молоко - 400 мл. \n
+2. Пшеничная мука - 1,5 ст. ложек \n
+3. Сливочное масло - 100 г. \n
+4. Куриное яйцо - 4 шт. \n
+5. Соль - щепотка \n
+6. Яичный желток - 2 шт. \n
+7. Картофельный крахмал - 1,5 ст. ложек \n
+8. Сахар - 80 г. \n
+9. Ванилин - по вкусу"
+
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/recipe"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:text="1. В кастрюлю налить молоко, положить туда масло сливочное, щепотку соли. Масло хорошенько растопить и добавить просеянную муку постоянно перемешивая, заварить массу и снять с плиты. \n
+2. Затем взбивая массу по одному добавить яйца. Яйца добавлять сразу в горячее тесто. Готовую массу наполнить в кондитерский мешок или шприц, и выдавить полоски длиной 10 см. на смазанный маслом или постеленный пергаментом противень. Между полосками оставить расстояние 5 см. (у меня эклеры выпекались в разогретой духовке при 180 гр. 30 минут 15). Духовку при выпекании эклеров не открывать. \n
+3. Заварной крем: В посуде для микроволновки растереть желтки с сахаром и ванилином, влить молоко и добавить муку, крахмал. \n
+4. Хорошо перемешать чтобы не было комочков и отправить в микроволновку на 3-5 минут на максимальную мощность. Через каждую минуту вынимать и хорошенько-хорошенько перемешивать, чтобы не было комочков. Густота крема зависит от того, сколько будете готовить по времени, у меня на приготовление крема ушло 4 минуты. \n
+5. В готовых эклерах сделать отверстие и наполнить заварным кремом, сверху эклеры покрыть растопленным на водяной бане шоколадом. \n"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

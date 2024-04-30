@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab3Class4Recipe"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@color/main_light_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="35dp"
+                app:srcCompat="@drawable/second_back_icon" />
+
+            <TextView
+                android:id="@+id/classname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="75dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/tab3_class4_name"
+                android:textColor="@color/main_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/tab3_class4_corner" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/border_radius">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/ingredients"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:text="1. Сливочное масло - 150 г. + для смазывания \n
+2. Сахар - 150 г. \n
+3. Яйца - 3 шт. \n
+4. Пшеничная мука - 150 г. \n
+5. Миндальная мука - 50 г. \n
+6. Разрыхлитель - 1,5 ч. ложка \n
+7. Соль - щепотка \n
+8. Молоко - 30 мл. \n
+9. Розовый гелевый пищевой краситель - 4 капли \n
+11. Абрикосовый джем - 170 г. \n
+11. Марципан - 200 г."
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/recipe"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:text="1. Разогрейте духовку до 180 °C. Квадратную форму для выпечки со стороной 20 см смажьте маслом. \n
+2. Отрежьте лист пергамента размером 20 × 40 см. Сложите его пополам и застелите им дно формы так, чтобы образовавшаяся в центре складка разделила её на две равные части. \n
+3. Взбейте миксером мягкое масло и сахар в пышную массу. По одному добавьте яйца. Введите оба вида муки, разрыхлитель и соль. Влейте молоко. \n
+4. Половину теста перелейте в другую миску. Вмешайте в неё пищевой краситель. \n
+5. В одну часть формы, разделённой пергаментом, выложите белое тесто, а в другую — розовое. Выпекайте около 25 минут. Остудите. \n
+6. Подровняйте края и верхушки обоих коржей. Разрежьте бисквиты пополам, чтобы у вас получилось по два одинаковых брусочка каждого цвета. \n
+7. Нагрейте джем в микроволновке или в кастрюле на плите, чтобы он стал более жидким. \n
+8. Раскатайте марципан в большой тонкий прямоугольник между двумя слоями пищевой плёнки. Снимите верхнюю. \n
+9. Обмажьте брусочки бисквита абрикосовым джемом со всех сторон. Выложите их в центр марципана в шахматном порядке и прижмите друг к другу. \n
+10. Плотно оберните кекс марципаном, помогая себе нижним листом плёнки. Обрежьте излишки и защипните шов. Уберите кекс в холодильник минимум на 2 часа. \n"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

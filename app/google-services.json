@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487890404297",
+    "project_id": "sakura-46be6",
+    "storage_bucket": "sakura-46be6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487890404297:android:0d578e82daad046a841e18",
+        "android_client_info": {
+          "package_name": "com.example.sacura"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-9_eWIPcRJS6Aq4wFVjYNUpD87WYKmw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

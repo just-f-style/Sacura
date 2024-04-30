@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sacura"
+        tools:targetApi="31">
+        <activity
+            android:name=".tab4Class4Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab4Class3Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab4Class2Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab4Class1Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab3Class4Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab3Class3Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab3Class2Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab3Class1Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab2Class4Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab2Class3Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab2Class2Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab2Class1Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab1Class4Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab1Class3Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab1Class2Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab1Class1Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".tab4Class4DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tab4Class3DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tab4Class2DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tab4Class1DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tab3Class4DetailsActivity"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".tab3Class3DetailsActivity"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".tab3Class2DetailsActivity"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".tab3Class1DetailsActivity"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".tab2Class4DetailsActivity"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".tab2Class3DetailsActivity"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".tab2Class2DetailsActivity"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".tab2Class1DetailsActivity"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".DetailsActivityClass1"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".DetailsActivityClass2"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".DetailsActivityClass3"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".DetailsActivityClass4"
+            android:exported="false"
+            android:label="DetailsActivity"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.Sacura.NoActionBar"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:screenOrientation="locked"
+            tools:ignore="DiscouragedApi" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

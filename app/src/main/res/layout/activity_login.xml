@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="64dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/class_icon"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/app_name"
+            android:textColor="@color/main_dark"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="57dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Сборник рецептов десертов"
+        android:textColor="@color/main_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="198dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Войдите в свою учётную запись"
+        android:textColor="@color/main_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_text"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border_radius"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/email_text"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="@color/main_color"
+        android:textColorHint="@color/main_color"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/password_text"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border_radius"
+        android:ems="10"
+        android:hint="@string/password_hidden_text"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/main_color"
+        android:textColorHint="@color/main_color" />
+
+    <Button
+        android:id="@+id/password_togle"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="@color/main_color"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/login_text"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="6dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="Нет учётной записи?"
+        android:textAlignment="center"
+        android:textColor="@color/main_dark"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/switch_registerpage_button"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20sp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/roboto"
+        android:foreground="@drawable/outline_shape"
+        android:text="@string/register_text"
+        android:textColor="@color/main_color"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab2Class3Recipe"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@color/main_light_color"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="35dp"
+                app:srcCompat="@drawable/second_back_icon" />
+
+            <TextView
+                android:id="@+id/classname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="75dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/tab2_class3_name"
+                android:textColor="@color/main_dark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/tab2_class3_corner" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/border_radius">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/ingredients"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:text="1. Пшеничная мука - 400 г. \n
+2. Куриное яйцо - 4 шт. \n
+3. Мед - 300 г. \n
+4. Сахар - 200 г. \n
+5. Растительное масло - 1 л. \n
+6. Сода - 0,5 ч. ложки \n
+7. Соль - 3 г."
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/recipe"
+                android:textColor="@color/main_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/main_dark"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:text="1. Взбить яйца с солью и содой. На рабочую поверхность насыпать муку горкой, сделать в ней лунку, и, постепенно вливая туда яйца, замесить тесто. Завернуть тесто в пищевую пленку и оставить на 20 минут. \n
+2. Раскатать тесто в тонкие листы и дать им немного подсохнуть. Каждый лист теста нарезать полосками шириной 5 см, а эти полоски нарезать тонкой соломкой. \n
+3. Полученную лапшу раскидать по столу и подсушить, пока греется масло. \n
+4. Обжарить лапшу небольшими порциям в кипящем растительном масле по 2 минуты, постоянно помешивая. Обжаренную лапшу выложить на бумажные полотенца, чтобы избавиться от излишков масла. \n
+5. В сухой толстостенной кастрюле растопить сахар с медом, довести до кипения и, аккуратно помешивая, дать покипеть пару минут. \n
+6. Залить лапшу горячим медовым сиропом и аккуратно перемешать. Когда сироп слегка остынет, смочить руки в холодной воде и придать чак-чаку любую форму, традиционно это горка. \n"
+                android:textAlignment="viewStart" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
